@@ -1,0 +1,15 @@
+[package]
+name = "rust-base"
+description = "Base for Rust project"
+version = "0.1.0"
+authors = ["Valentin Colin <valentin.colin78@gmail.com>"]
+# repository = "https://github.com/ValentinColin/"
+# homepage = "https://github.com/ValentinColin/"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+log = "0.4"
+thiserror = "1" # Error management
+# tokio = { version = "1", features = ["full"] } # Async
+# clap = { version = "4", features = ["cargo"] } # CLI
